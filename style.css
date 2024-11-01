@@ -21,6 +21,17 @@ body {
 	height: 100%;
 	overflow-x: hidden;
 }
+/*Icon WP*/
+#whatsapp-icon {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	width: 60px; /* Ajusta el tamaño del icono */
+	height: 60px; /* Ajusta el tamaño del icono */
+	z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+/*End icon*/
 a {
 	text-decoration: none !important;
 }
