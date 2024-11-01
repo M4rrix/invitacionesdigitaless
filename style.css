@@ -143,7 +143,9 @@ h6 {
 	width: 100%;
 }
 .banner-overlay {
-	background: linear-gradient(to top right, rgba(171, 47, 82, 0.8) 0%, rgba(219, 199, 179, 0.8) 100%);
+	background: linear-gradient(to top right, rgba(171, 47, 82, 0.6) 0%, rgba(219, 199, 179, 0.6) 100%);
+
+	/*background: linear-gradient(to top right, rgba(171, 47, 82, 0.8) 0%, rgba(219, 199, 179, 0.8) 100%);*/
 
 	/*background: linear-gradient(to bottom, rgba(200, 150, 180, 0.8) 0%, rgba(180, 170, 80, 0.8) 100%);*/
 	padding:220px 0px 170px;
