@@ -42,6 +42,7 @@
 
 <!-- Banner Image -->
 
+
 <div class="banner text-center" data-scroll-index='0'>
   <div class="banner-overlay">
     <div class="container">
@@ -54,6 +55,7 @@
     </div>
   </div>
 </div>
+
 
 
 <!-- End Banner Image --> 
@@ -143,83 +145,52 @@
 <!--CARD-->
 <div class="services bg-grey" data-scroll-index='3'>
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-md-12 section-title text-center">
         <h3>Diseños</h3>
-        <p>Creamos una web personalizada
-          con todos los detalles del evento.</p>
-       </p>
-        <span class="section-title-line"></span> 
+        <p>Creamos una web personalizada con todos los detalles del evento.</p>
+        <span class="section-title-line"></span>
       </div>
-      <div class="col-md-4">
+    </div>
+    
+    <div class="row justify-content-center">
+      <!-- Primer servicio -->
+      <div class="col-md-4 mb-4">
         <div class="service-box text-center">
-          <div class="card" style="width: 100%;">
-            <img src="images/gall1.jpeg" class="card-img-top" alt="...">
+          <div style="width: 100%;">
+            <a href="bodas.html">
+              <img src="images/boda.png" class="card-img-top" alt="...">
+            </a>
             <div class="card-body">
-                <a href="https://save-the-date-feli-sasha.netlify.app/" 
-                  class="btn btn-primary">
-                  Ver ejemplo <br>Feli&Sasha <br> 
-                  <span  style="color: #A8D5BA;">ARS $40.000</span>
-                </a>
+              <a href="bodas.html" class="btn btn-primary">
+                Ver diseños
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      
+      <!-- Segundo servicio -->
+      <div class="col-md-4 mb-4">
         <div class="service-box text-center">
-          <div class="card" style="width: 100%;">
-            <img src="images/gall2.jpeg" class="card-img-top" alt="...">
+          <div style="width: 100%;">
+            <!-- Envolver la imagen en un enlace -->
+            <a href="xv.html">
+              <img src="images/xv.png" class="card-img-top" alt="...">
+            </a>
             <div class="card-body">
-              <a href="https://save-the-date-jack-rose.netlify.app/" 
-                 class="btn btn-primary">
-                 Ver ejemplo <br> Jack&Rose <br> 
-                 <span  style="color: #A8D5BA;">ARS $40.000</span>
+              <a href="xv.html" class="btn btn-primary">
+                Ver diseños
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="service-box  text-center">
-          <div class="card" style="width: 100%;">
-            <img src="images/gall3.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="https://save-the-date-tomi-julia.netlify.app/" 
-                 class="btn btn-primary">
-                 Ver ejemplo <br> Tomi&Julia <br> 
-                 <span style="color: #A8D5BA;">ARS $40.000</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service-box  text-center">
-          <div class="card" style="width: 100%;">
-            <img src="images/gall4.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="https://fanciful-stroopwafel-65e1a5.netlify.app/" 
-                 class="btn btn-primary">
-                 Ver ejemplo <br> Juan&María <br> 
-                 <span  style="color: #A8D5BA;">ARS $20.000</span>  
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-     <!-- <div class="col-md-4">
-        <div class="service-box  text-center">
-          <div class="card" style="width: 100%;">
-            <img src="images/gall5.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="https://lovely-fairy-27ccdf.netlify.app/" class="btn btn-primary">Ver ejemplo <br> Lore&Pedro</a>
-            </div>
-          </div>
-        </div>
-      </div>-->
+      
     </div>
   </div>
 </div>
+
 
 <!--END CARD-->
 <!--preguntas frecuentes-->
@@ -359,23 +330,7 @@
 <!-- isotope.pkgd.min js --> 
 <script src="js/isotope.pkgd.min.js"></script> 
 <script>
-  //Music
-  const music = document.getElementById('background-music');
-        const musicIcon = document.getElementById('music-icon');
-        let isPlaying = false;
-
-        function toggleMusic() {
-            if (isPlaying) {
-                music.pause();
-                musicIcon.src = 'images/muted_10008209.png'; // Cambia a icono de silencio
-                isPlaying = false;
-            } else {
-                music.play();
-                musicIcon.src = 'images/speaker_13189257.png'; // Cambia a icono de megáfono
-                isPlaying = true;
-            }
-        }
-  //End Music
+  
 
 
 
