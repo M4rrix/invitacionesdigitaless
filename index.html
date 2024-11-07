@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Invitaciones Digitales</title>
-<link rel="icon" href="images/icon1.png" type="image/x-icon">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"/>
+    <title>Invitaciones Digitales</title>
+    <meta name="description" content="Invitaciones digitales personalizadas para cualquier evento. Elige el diseño perfecto y personalízalo fácilmente." />
+    <meta name="keywords" content="invitaciones, digitales, personalizadas, boda, cumpleaños, eventos" />
+    <meta name="author" content="Tu Nombre o Nombre de la Empresa" />
+    
+    <!-- Open Graph para redes sociales (Facebook) -->
+    <meta property="og:title" content="Invitaciones Digitales" />
+    <meta property="og:description" content="Invitaciones digitales personalizadas para cualquier evento. Elige el diseño perfecto y personalízalo fácilmente." />
+    <meta property="og:image" content="images/icon1.png" />
+    <meta property="og:url" content="https://www.tu-sitio.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Invitaciones Digitales" />
+    <meta name="twitter:description" content="Invitaciones digitales personalizadas para cualquier evento. Elige el diseño perfecto y personalízalo fácilmente." />
+    <meta name="twitter:image" content="images/icon1.png" />
+    
+    <!-- Icono de la página -->
+    <link rel="icon" href="images/icon1.png" type="image/x-icon">
+    
+    <!-- CSS de librerías externas -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+    <!--anterior
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    -->
+    <!--Nuevo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<!-- Font Google -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Fuentes Google -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
+
+
+
 
 <body>
   
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
-  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <!-- <img src="images/icon.png" alt="logo" class="logo-1">--> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+  <div class="container">
+    <a class="navbar-brand navbar-logo" href="#"> <!-- logo opcional --> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Inicio</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Servicios</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Diseños</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Contacto</a> </li>
-        
+        <li class="nav-item"> <a class="nav-link" href="#inicio" data-scroll-nav="0">Inicio</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#servicios" data-scroll-nav="2">Servicios</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#disenos" data-scroll-nav="3">Diseños</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#contacto" data-scroll-nav="4">Contacto</a> </li>
       </ul>
     </div>
   </div>
 </nav>
-<!-- End Navbar --> 
+<!-- End Navbar -->
+
 
 
 <!-- Banner Image -->
@@ -194,7 +226,7 @@
 
 <!--END CARD-->
 <!--preguntas frecuentes-->
-<div class="container mt-5">
+<div class="container container-pf mt-5">
   <h2 class="custom-title text-center">Preguntas frecuentes</h2>
   <div id="accordion" class="custom-accordion">
       <div class="card">
@@ -205,7 +237,7 @@
                   </button>
               </h5>
           </div>
-          <div id="collapseOne" class="collapse show" data-parent="#accordion"> <!--class="collapse show" agregar show para que la respuesta quede marcada-->
+          <div id="collapseOne" class="collapse" data-parent="#accordion"> <!--class="collapse show" agregar show para que la respuesta quede marcada-->
               <div class="card-body">
                   El proceso para realizar una invitación consta en tres partes: primero se elige un diseño específico, luego se pasan los datos necesarios para completar los textos y se envían las fotos. Teniendo esto, podemos avanzar y realizar la invitación, y por último se la compartimos para que puedan verificar que todos los datos son correctos y si desean realizar algún cambio. Una vez finalizada la invitación, ya está lista para enviar.
               </div>
@@ -312,23 +344,20 @@
   </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/scrollIt.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
-<!-- owl carousel js --> 
-<script src="js/owl.carousel.min.js"></script> 
-<!-- magnific-popup --> 
-<script src="js/jquery.fancybox.min.js"></script> 
 
-<!-- scrollIt js --> 
-<script src="js/scrollIt.min.js"></script> 
 
-<!-- isotope.pkgd.min js --> 
-<script src="js/isotope.pkgd.min.js"></script> 
+<!-- Isotope JS (para filtros de galería o elementos dinámicos-->
+
 <script>
   
 
