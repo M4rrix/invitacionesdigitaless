@@ -148,15 +148,19 @@ h6 {
 	position: relative;
 }
 .banner {
-	background:url(images/bg1.jpg) no-repeat 0% 0% / cover;
+	background:url(images/bg/bg2Test.jpg) no-repeat 0% 0% / cover;
 	color:#ffffff;
 	text-align: center;
 	width: 100%;
+	
 }
 .banner-overlay {
+
 	background: linear-gradient(to top right, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
-	/* color
-	background: linear-gradient(to top right, rgba(171, 47, 82, 0.6) 0%, rgba(219, 199, 179, 0.6) 100%);
+	 
+	/*
+	 color
+	 background: linear-gradient(to top right, rgba(171, 47, 82, 0.6) 0%, rgba(219, 199, 179, 0.6) 100%);
 	background: linear-gradient(to top right, rgba(171, 47, 82, 0.8) 0%, rgba(219, 199, 179, 0.8) 100%);
 	background: linear-gradient(to bottom, rgba(200, 150, 180, 0.8) 0%, rgba(180, 170, 80, 0.8) 100%);*/
 	padding:220px 0px 170px;
@@ -621,6 +625,7 @@ h6 {
 	transform: scale(0.75) !important;
 	-webkit-transform: scale(0.75) !important;
 }
+
 .banner h1 {
 	font-size: 35px;
 }
